@@ -1,0 +1,25 @@
+table, tr, td{
+    border: 1px solid black;
+}
+
+table {
+    border-collapse:collapse;
+    width:80%;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+tbody.data tr:nth-child(odd){
+    background-color:royalblue ;
+}
+
+tbody.data tr:nth-child(even){
+    background-color: lightblue;
+}
+
+thead, tfoot{
+    background-color: orange;
+    font-weight: bold;
+}
+
